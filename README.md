@@ -1,4 +1,4 @@
-# ProyectoPOOGestordeinversionsimple.cpp
+# POOGestor de portafolio (Tarjeta de credito).cpp
 Gestor de portafolio (Tarjeta de credito)
 
 Problema:
