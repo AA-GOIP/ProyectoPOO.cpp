@@ -1,4 +1,4 @@
-# POOGestor de portafolio (Tarjeta de credito).cpp
+# POO Gestor de portafolio (Tarjeta de credito).cpp
 Gestor de portafolio (Tarjeta de credito)
 
 Problema:
