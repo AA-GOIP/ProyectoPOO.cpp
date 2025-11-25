@@ -1,0 +1,28 @@
+
+#include <iostream>
+
+using namespace std;
+
+class Circulo{
+
+float area_base(float radio, float h){
+    return 3.1416*(radio)(radio);
+}
+}
+
+class Cilindro {
+float volumen = area_base*h;
+return volumen;
+}
+
+int main {
+float radio, h;
+
+
+cout<<dame el radio del la base del circulo;
+cin>> radio;
+cout<< dame el altura del Cilindro;
+cin>>h
+
+}
+
