@@ -43,12 +43,12 @@ Clases del proyecto:
   
 3. Cuenta bancaria:
 - Representa una cuenta.
-- Tiene número y saldo.
+- Tiene: número y saldo.
 - Función: Depositar retirar y mostrar datos.
 
 4. Tarjeta de crédito:
 - Simula una tarjeta de crédito.
-- Tiene limite, deuda y tasa de interés.
+- Tiene: limite, deuda y tasa de interés.
 - Función: Comprar, pagar deuda y mostrar información.
 
 5. Inversion, hereda de producto financiero:
@@ -56,10 +56,10 @@ Clases del proyecto:
 -Tiene: Monto inicial, meses y la tasa anual.
 -Función: calcula la ganancia y muestra la inversion.
 
-6.AplicacionBancoÑ
--Coordina todo el sistema
+6.AplicacionBanco:
+-Coordina todo el sistema.
 -Incluye:
-1. composición: vector<Cliente_>,ya que los clientes solo existen dentro del app.
+1. composición: vector<Cliente_>, ya que los clientes solo existen dentro del app.
 2. Agregacion: de la CunetaBancaria, las tarjetas y la inversión, ya que estos productos se crean fuera y la app los registra únicamente.
    
 Compilación:
