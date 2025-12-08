@@ -1,0 +1,32 @@
+REVISION DEL PROYECT–POO
+AA_GO_777
+Herencia:
+La clase base ProductoFinanciero contiene atributos comunes a todos los productos.
+Las clases CuentaBancaria, Tarjeta e Inversion heredan de esta clase, cumpliendo herencia simple.
+
+Composicion:
+La clase AplicacionBanco contiene el vector clientes_.
+Estos clientes solo existen dentro de la App, por lo que la relación es composición.
+
+Agregacion:
+La aplicación recibe productos ya creados fuera de ella:
+cuentas, tarjetas e inversiones.
+La app no es responsable de su vida, solo las administra.
+Esto es una agregación correcta.
+
+Encapsulamiento:
+Todas las clases tienen atributos privados con métodos públicos de acceso o acciones.
+
+Relaciones entre clases:
+1. Los objetos de Cliente almacenan identificadores de productos.
+2. La App administra sus vectores y llama métodos osea las funciones de los productos.
+3. Cada clase posee atributos que son manipulados por métodos osea sus funciones específicas.
+
+UML:
+El diagrama incluye:
+1. Herencia, flecha blanca vacía
+2. Agregación,rombo blanco
+3. Composición,rombo negro
+. Clases y miembros
+
+El proyecto ya cumple todos los requisitos establecidos por la materia pero solo puede hacer nueva revision de avance 2 y 3
