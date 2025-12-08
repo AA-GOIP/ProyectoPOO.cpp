@@ -54,4 +54,14 @@ int main(){
     app.CerrarSesion();
 
     return 0;
+
 }
+//Compilación:
+//1. Manual:
+//g++ main.cpp \AplicacionBanco.cpp \Cliente.cpp \ProductoFinanciero.cpp \CuentaBancaria.cpp \Tarjeta.cpp \
+//Inversion.cpp \-o main
+//2.Powershell
+//g++ main.cpp AplicacionBanco.cpp Cliente.cpp ProductoFinanciero.cpp CuentaBancaria.cpp Tarjeta.cpp Inversion.cpp -o main
+//3.Compilar automaticamente los cpp
+//g++ *.cpp -o main
+//.\main
